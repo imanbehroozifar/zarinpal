@@ -15,6 +15,7 @@ crossIcon.addEventListener('click', function () {
 
 showMoreMenu.addEventListener('mouseenter', function (e) {
   const ul = e.target.childNodes[5];
+  console.log(ul)
   ul.style.animation = 'showUp 0.35s 1';
   ul.style.display = 'block';
 });
